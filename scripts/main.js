@@ -1,13 +1,62 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import ReactSidebar from 'react-sidebar'
+import TopMenu from './main1'
+// import articles1 from './main1'
+
+var Cat = React.createClass({
+	getInitialState: function() {
+		return{
+			page:1,
+			maxpage :2
+		};
+	},
+	render: function(){
+		console.log(this.state.page)
+		if (this.props.page == 1) {
+		return (
+			<div>
+				妖精的尾巴讲述了主人公夏，在哈鲁吉安城市遇到了女主人公露西。露西为了加入妖精的尾巴协会被人欺骗，关键时刻夏来救援并表示接纳露西成为妖精的尾巴协会一员的故事。
+			</div>
+			);
+		}
+		else return(<div>妖精的尾巴是日本漫画家真岛浩创作的少年漫画。该作品讲述了魔导士公会“妖精的尾巴”的成员露西、纳兹、哈比、格雷、艾露莎和他们的众多伙伴们在这个魔法世界中的一系列热..</div>)
+	}
+});
+var Articles1 = React.createClass({
+	getInitialState: function() {
+		return{
+			page: 1,
+			maxpage :2
+		};
+	},
+
+	nextPage: function() {
+		if (this.state.page>=this.state.maxpage) {return;}
+		this.setState({page: this.state.page+1})
+	},
+
+	prevPage: function() {
+		if (this.state.page<=1) {return}
+		this.setState({page: this.state.page-1})
+	},
+	render: function() {
+		return (
+		<div>
+			<Cat page = {this.state.page} maxpage = {this.state.maxpage} />
+			<button onClick={this.nextPage}>nextPage</button>
+			<button onClick={this.prevPage}>prevPage</button>
+		</div>);
+	}
+});
 
 const defaultstyles={
 rightbuttonstyle: {
     position: 'inherit',
     right: 0
   },
-}
+};
+
 var App = React.createClass({
     getInitialState: function() {
         return { LeftsidebarOpen: true,
@@ -44,9 +93,10 @@ var App = React.createClass({
 
 	        <div>
 	         	<ReactSidebar sidebar={sidebarContent} pullRight = {true} docked = {this.state.RightsidebarOpen} >
+	         		<TopMenu />
 	         		<button onClick={this.goleft}>rightB</button>
 	         	    <button style={defaultstyles.rightbuttonstyle}onClick = { this.goright}>LeftB</button>
-	         	    <div>take</div> 
+	         	     <div><Articles1 >来了</Articles1></div> 
 	         	</ReactSidebar>
 	        </div> 
 	    </ReactSidebar>
