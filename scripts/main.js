@@ -2,8 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import ReactSidebar from 'react-sidebar'
 import TopMenu from './main1'
+import Search from 'react-search'
 // import articles1 from './main1'
-
 var Cat = React.createClass({
 	getInitialState: function() {
 		return{
@@ -86,7 +86,12 @@ var App = React.createClass({
 	        	</div>
 	        </div> 
 	    );
-
+		var options = [
+            { value: "Don't specify", id: "0" },
+            { value: "Contact Page", id: "1"},
+            { value: "Search Page", id: "2"},
+            { value: "Conversation action page", id: "3"}
+        ];
 	    return ( 
 
 	    <ReactSidebar sidebar = { sidebarContent } docked = { this.state.LeftsidebarOpen } >
@@ -97,6 +102,15 @@ var App = React.createClass({
 	         		<button onClick={this.goleft}>rightB</button>
 	         	    <button style={defaultstyles.rightbuttonstyle}onClick = { this.goright}>LeftB</button>
 	         	     <div><Articles1 >来了</Articles1></div> 
+	         	     <div>
+                        <Search items={options}
+                            placeholder='select'
+                            maxSelected={1}
+                            multiple={false}
+                            onItemsChanged={alert(1)} 
+                        />
+
+                	</div>
 	         	</ReactSidebar>
 	        </div> 
 	    </ReactSidebar>

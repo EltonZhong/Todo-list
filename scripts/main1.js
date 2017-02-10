@@ -18,7 +18,7 @@ export default class TopMenu extends React.Component{
 
     gethrefs(){
     	let m=(<div>
-    			<a href = 'kkk'>Homepage</a>
+    			<a href = 'index2.html'>Homepage</a>
     			<a href = {this.toHomePage}>Homepage</a>
     			<a onClick = {this.toHomePage}>Homepage</a>
     			<a onClick = {this.toHomePage}>Homepage</a>
