@@ -4,10 +4,12 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');
 module.exports = {
 	devtool:'eval-source-map',
 	entry:{
-	app:[__dirname+"/scripts/main.js"]
-	},
+	app:[                
+	// 'webpack-dev-server/client?http://localhost:8080/',
+	__dirname+"/scripts/main.js"
+	]},
 	output:{
-		publicPath:"http://localhost:8080/static/dist",
+		publicPath:'/ass/',
 		path:__dirname+"/build",
 		filename:"boundle.js"
 	},
@@ -28,12 +30,12 @@ module.exports = {
 		  	loader:'style!css',
             // exclude: /node_modules/,
 		  },
-		     {
+	     {
           test: /\.css$/,
           include: [path.join(__dirname, 'node_modules'), path.join(__dirname, 'bower_components'),],
           exclude: path.join(__dirname, 'scripts'),
           loader: ExtractTextPlugin.extract('css-loader?modules&importLoaders=1&localIdentName=[local]')
-      },
+      	},
 		  {
 	　　　　　test: /\.(png|jpg)$/,
 	　　　　　loader: 'url-loader?limit=8192'
@@ -53,13 +55,13 @@ module.exports = {
 	        	}
 			}
 		]
-	},
-	devServer: {
-        colors: true,//终端中输出结果为彩色
-        historyApiFallback: true,//不跳转
-        inline: true,//实时刷新
-        hot:true,
-	progress:true,
-        port:8080
-    }
+	}
+	// devServer: {
+ //        colors: true,//终端中输出结果为彩色
+ //        historyApiFallback: true,//不跳转
+ //        inline: true,//实时刷新
+ //        hot:true,
+	// 	progress:true,
+ //        port:8080
+ //    }
 }
