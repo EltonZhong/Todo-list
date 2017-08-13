@@ -10,7 +10,12 @@
 .mySlides {
     display: none;
 }
-
+.imgHover {
+  display: none
+}
+.imgHover:hover{
+  display: block
+}
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;

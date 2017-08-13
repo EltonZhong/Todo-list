@@ -6,7 +6,7 @@ export default class AliceModal extends React.Component{
         super(props);
         this.state = {
             tab:false,
-            tuling:"你好我是萌萌哒图灵机器人！" 
+            tuling:"121211212" 
         }
     }
     getTuling(ev){
@@ -29,7 +29,7 @@ export default class AliceModal extends React.Component{
                         <Modal.Title>
                             你好我是图灵机器人，<a onClick = {()=>{
                                 this.setState({tab:!this.state.tab})
-                            }}>点此</a> 切换到Alice
+                            }}>点此ffff</a> 切换到Alice
                         </Modal.Title>
                     </Modal.Header>
                     <Modal.Body>
@@ -45,7 +45,7 @@ export default class AliceModal extends React.Component{
                     <Modal.Title>
                         Hi I'm Alice,click <a onClick = {()=>{
                             this.setState({tab:!this.state.tab})
-                        }}>here</a> to Talk to 图灵机器人
+                        }}>here</a> to Talk to fuck
                     </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>

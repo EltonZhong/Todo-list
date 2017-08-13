@@ -30,12 +30,6 @@ module.exports = {
 		  	loader:'style!css',
             // exclude: /node_modules/,
 		  },
-	     {
-          test: /\.css$/,
-          include: [path.join(__dirname, 'node_modules'), path.join(__dirname, 'bower_components'),],
-          exclude: path.join(__dirname, 'scripts'),
-          loader: ExtractTextPlugin.extract('css-loader?modules&importLoaders=1&localIdentName=[local]')
-      	},
 		  {
 	　　　　　test: /\.(png|jpg)$/,
 	　　　　　loader: 'url-loader?limit=8192'
