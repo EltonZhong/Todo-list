@@ -84,7 +84,9 @@ export default class TaskTable extends React.Component{
             top: '20%',
             width: '80%',
             position: 'absolute',
-            paddingLeft: '10%'
+            paddingLeft: '10%',
+            height: '550px',
+            overflow: 'auto'
         }
         let date = new Date();
         return (
