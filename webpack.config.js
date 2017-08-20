@@ -1,6 +1,8 @@
 var path = require("path")
 var webpack = require('webpack');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
+
 module.exports = {
     devtool: 'source-map',
     entry: {
@@ -16,35 +18,16 @@ module.exports = {
     },
     module: {
         plugins: [
-            //makes jQuery available in every module
-            new webpack.ProvidePlugin({
-                $: 'jquery',
-                jQuery: 'jquery',
-                'window.jQuery': 'jquery'
-            }),
             new webpack.DefinePlugin({
                 'process.env': {
-                    'NODE_ENV': JSON.stringify('production'),
-                },
-                __UNIMPL_STEP__: false,
-                __MTHOR_PROJECT_ID__: 1
-            }),
-
-            // keeps hashes consistent between compilations
-            new webpack.optimize.OccurrenceOrderPlugin(),
-
-            // minifies your code
-            new webpack.optimize.UglifyJsPlugin({
-                output: {
-                    comments: false,
-                },
-                compressor: {
-                    warnings: false
+                    'NODE_ENV': JSON.stringify('production')
                 }
             }),
-
-            new webpack.NoErrorsPlugin()
- 
+			new UglifyJSPlugin({
+				uglifyOptions: {
+			      warnings: false
+				}
+			})
         ],
         loaders: [{
                 test: /\.json$/,
