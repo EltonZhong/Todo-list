@@ -18,7 +18,11 @@
     "css-loader": "^0.26.1",
     "file-loader": "^0.10.0",
     "json-loader": "^0.5.4",
+    "rollup-plugin-commonjs": "^8.1.0",
+    "rollup-plugin-uglify": "^2.0.1",
     "style-loader": "^0.13.1",
+    "transform-runtime": "0.0.0",
+    "uglifyjs-webpack-plugin": "^0.4.6",
     "url-loader": "^0.5.7",
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.3"
