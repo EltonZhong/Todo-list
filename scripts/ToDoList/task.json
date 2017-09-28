@@ -199,7 +199,8 @@
     "highlight": ["在swagger 上跑通了自己的api，逻辑很周到"]
 },{
     "date": "2017/9/24",
-    "todo": ["学习css3", "看完Thinging in java pdf 版本第一章对象", "洗鞋子", "整理秋天的衣服"]
+    "todo": ["学习css3", "看完Thinging in java pdf 版本第一章对象", "洗鞋子", "整理秋天的衣服"],
+    "done": ["done", "done", "done", "x"]
 },{
     "date": "2017/9/25",
     "todo": ["Thinking in java 第二章", "擦鞋"],
@@ -210,7 +211,18 @@
     "done": ["√","回来较晚，改明日"]
 },{
     "date": "2017/9/27",
-    "todo": ["收拾房间大扫除", "继续读Thinking in java", "如果有头绪,找set up script的原因"]
+    "todo": ["收拾房间大扫除", "继续读Thinking in java", "如果有头绪,找set up script的原因"],
+    "done": ["done", "done", "done"]
+},{
+    "date": "2017/9/28",
+    "todo": ["Thinking in java", "logger"],
+    "done": []
+},{
+    "date": "2017/9/29",
+    "todo": ["pack clothes", "prepare the presents"]
+},{
+    "date": "2017/9/30",
+    "todo": ["准备回家", "water the flower"]
 }
 
 ]
