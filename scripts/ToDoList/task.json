@@ -216,13 +216,28 @@
 },{
     "date": "2017/9/28",
     "todo": ["Thinking in java", "logger"],
-    "done": []
+    "done": ["1", "1"]
 },{
     "date": "2017/9/29",
-    "todo": ["pack clothes", "prepare the presents"]
+    "todo": ["pack clothes", "prepare the presents"],
+    "done": ["1", "1"]
 },{
     "date": "2017/9/30",
-    "todo": ["准备回家", "water the flower"]
+    "todo": ["准备回家", "water the flower"],
+    "done": ["1", "1"]
+},{
+    "date": "2017/10/1-2017/10/8",
+    "todo": [""]
+},{
+    "date": "2017/10/9",
+    "todo": ["看一下身上的tickets，xuan择完成", "log"],
+    "done": ["由于vpn连不上，瞄了一下感觉完成的七七八八先不管","0"]
+},{
+    "date": "2017/10/10",
+    "todo": ["log", "修完所有ticket"]
+},{
+    "date": "2017/10/11",
+    "todo": ["户口"]
 }
 
 ]
