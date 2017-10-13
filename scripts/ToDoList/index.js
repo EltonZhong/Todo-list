@@ -48,7 +48,7 @@ export default class TaskTable extends React.Component{
         let toolTip = <RB.Tooltip id='tag_edit'>{va}</RB.Tooltip>
         return (
             <RB.OverlayTrigger placement="top" overlay={toolTip}>
-                <div style = {{width: 300, color:'white', overflow:'auto'}} >{va}</div>
+                <div style = {{width: '100%', color:'white', overflow:'auto'}} >{va}</div>
             </RB.OverlayTrigger>
         )
     }
