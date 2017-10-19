@@ -271,6 +271,11 @@
     "date": "2017/10/19",
     "todo": ["learn"],
     "done": [""]
+},{
+    "date": "2017/10/20",
+    "todo": ["npm package"],
+    "done": ["1"],
+    "highlight": ["发现并解决了一个特别难以追踪的bug，发现是npm依赖的依赖react bootstrap table版本不一致带来的问题，决定安排时间深入了解npm依赖管理问题"]
 }
 
 ]
