@@ -8,7 +8,7 @@
   <link rel="stylesheet" media="screen" href="demo/css/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap-theme.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
-  <link rel="shortcut icon" type="image/x-icon" href="./favicon2.ico?v=2">
+  <link rel="shortcut icon" id = "ico" type="image/x-icon" href="./favicon2.ico?v=2">
   <style>
   div{
       word-break: break-all;
@@ -29,7 +29,14 @@
 <script src="demo/js/app.js"></script>
 <script src = "build/boundle.js"></script>
 <!--<script src="http://localhost:8080/webpack-dev-server.js"></script>-->
-
+<script >
+    var m = true
+    document.addEventListener('visibilitychange', function(){
+        document.title = m?"Zhong": "Elton"
+        document.getElementById('ico').href = m?"./favicon.ico?v=2": "./favicon2.ico?v=2"
+	m = !m
+    })
+</script>
 <!--<script src="webpack-dev-server.js"></script>-->
 </body>
 </html>
