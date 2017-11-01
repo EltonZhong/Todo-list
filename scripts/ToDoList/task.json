@@ -291,7 +291,31 @@
    "done": []
 },{
    "date": "2017/10/24",
-   "todo": ["parser"]
+   "todo": ["parser"],
+   "done": ["exercise中缀解析 "]
+},{
+   "date": "2017/10/25",
+   "todo": ["看龙书"],
+   "done": ["1"]
+},{
+    "date": "2017/10/26",
+    "todo": ["细读龙书"],
+    "done": ["重读昨晚随便看的部分，细细读懂"],
+    "highlight": ["理解了解析中缀的正确翻译模式，语法树"]
+},{
+    "date": "2017/10/27-2017/10/29",
+    "todo": ["trip"]
+},{
+    "date": "2017/10/30",
+    "todo": ["fucking etrade", "read one more chapter of dragon book"]
+},{
+    "date": "2017/10/31",
+    "todo": ["django backend of node_configure", "read <venus in flur>"],
+    "done": ["resources restframework api already availabe", "finally done"]
+
+},{
+    "date": "2017/11.01",
+    "todo": ["swagger for backend", "try create-react-app", "read my dragon book"]
 }
 
 ]
