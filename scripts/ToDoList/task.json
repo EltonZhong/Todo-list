@@ -314,8 +314,28 @@
     "done": ["resources restframework api already availabe", "finally done"]
 
 },{
-    "date": "2017/11.01",
-    "todo": ["swagger for backend", "try create-react-app", "read my dragon book"]
+    "date": "2017/11/01",
+    "todo": ["swagger for backend", "try create-react-app", "read my dragon book"],
+    "done": ["1", "1", "scanner"]
+},{
+    "date": "2017/11/02",
+    "todo": ["thinking in java", "前端swagger连接后端 "],
+    "done": ["1", "0"]
+},{
+    "date": "2017/11/03",
+    "todo": ["龙书", "debug backend"],
+    "done": ["1", "0"]
+},{
+    "date": "2017/11/04-2017/11/05",
+    "todo": ["交流会", "接待同学"],
+    "done": ["1", "1"]
+},{
+    "date": "2017/11/06",
+    "todo": ["thinking in java", "review code"],
+    "done": []
+},{
+    "date": "2017/11/07",
+    "todo": ["ID card"]
 }
 
 ]
