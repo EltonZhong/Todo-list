@@ -332,10 +332,20 @@
 },{
     "date": "2017/11/06",
     "todo": ["thinking in java", "review code"],
-    "done": []
+    "done": [1, 1]
 },{
     "date": "2017/11/07",
-    "todo": ["ID card"]
+    "todo": ["ID card", "hadoop搭建", "thinking in java"],
+    "done": [0, 1],
+    "highlight": ["deep 了解了函数式编程，响应式编程"]
+},{
+    "date": "2017/11/08",
+    "todo": ["休息下浏览github", "早睡", "WEBGL!!!!!"],
+    "done": []
+},{
+    "date": "2017/11/09",
+    "todo": [""]
+
 }
 
 ]
