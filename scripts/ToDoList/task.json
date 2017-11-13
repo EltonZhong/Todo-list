@@ -344,8 +344,17 @@
     "done": []
 },{
     "date": "2017/11/09",
-    "todo": [""]
-
+    "todo": ["github"]
+},{
+    "date": "2017/11/10-2017/11/11",
+    "todo": ["感冒休息", "配眼镜"]
+},{
+    "date": "2017/11/12",
+    "todo": ["解决node configure坑", "调整生物钟", "用新到的吸尘器彻底打扫房间", "presentation"],
+    "done": ["tons of bugs drive me mad"]
+},{
+    "date": "2017/11/13",
+    "todo": ["fucking etrade", "就业失业证"]
 }
 
 ]
