@@ -355,6 +355,30 @@
 },{
     "date": "2017/11/13",
     "todo": ["fucking etrade", "就业失业证"]
+},{
+    "date": "2017/11/14",
+    "todo": ["nothing to do"]
+},{
+    "date": "2017/11/15",
+    "todo": ""
+},{
+    "date": "2017/11/16",
+    "todo": ["learn python", "webpack HMR"],
+    "done": [1, 1],
+    "highlight": ["find the easist way to get the path in a mose", "HMR"]
+},{
+    "date": "2017/11/17",
+    "todo": ["调integration template"],
+    "done": ["1"],
+    "highlight": ["发现了submodule的天坑", "java integer -128-127 对象不变，过了对象就变了"]
+},{
+    "date": "2017/11/18",
+    "todo": ["蓝底二寸照片", "钻研龙书至少二小时", "找到一个合适的note book,开始使用统一的notebook", "clean my room"]
+},{
+    "date": "2017/11/19",
+    "todo": ["准备以精神饱满的姿态迎接2017/11/20"]
+},{
+    "date": "2017/11/20"
 }
 
 ]
