@@ -1,0 +1,181 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'makegirlsmoe_web',
+1 verbose cli   '--save' ]
+2 info using npm@3.10.9
+3 info using node@v6.9.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData makegirlsmoe_web
+8 silly fetchNamedPackageData makegirlsmoe_web
+9 silly mapToRegistry name makegirlsmoe_web
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry http://10.32.52.100:8888/nexus/content/groups/npm-all
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'makegirlsmoe_web',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'makegirlsmoe_web',
+12 silly mapToRegistry   name: 'makegirlsmoe_web',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri http://10.32.52.100:8888/nexus/content/groups/npm-all/makegirlsmoe_web
+14 verbose request uri http://10.32.52.100:8888/nexus/content/groups/npm-all/makegirlsmoe_web
+15 verbose request always-auth set; sending authorization
+16 info attempt registry request try #1 at 11:18:30 PM
+17 verbose request id 00017537468777a3
+18 http request GET http://10.32.52.100:8888/nexus/content/groups/npm-all/makegirlsmoe_web
+19 http 404 http://10.32.52.100:8888/nexus/content/groups/npm-all/makegirlsmoe_web
+20 verbose bad json <html>
+20 verbose bad json   <head>
+20 verbose bad json     <title>404 - Path /makegirlsmoe_web not found in group repository &quot;npm-all&quot; [id=npm-all].</title>
+20 verbose bad json     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+20 verbose bad json
+20 verbose bad json     <link rel="icon" type="image/png" href="http://10.32.52.100:8888/nexus/favicon.png">
+20 verbose bad json     <!--[if IE]>
+20 verbose bad json     <link rel="SHORTCUT ICON" href="http://10.32.52.100:8888/nexus/favicon.ico"/>
+20 verbose bad json     <![endif]-->
+20 verbose bad json
+20 verbose bad json     <link rel="stylesheet" href="http://10.32.52.100:8888/nexus/static/css/Sonatype-content.css?2.14.1-01" type="text/css" media="screen" title="no title" charset="utf-8">
+20 verbose bad json   </head>
+20 verbose bad json   <body>
+20 verbose bad json     <h1>404 - Path /makegirlsmoe_web not found in group repository &quot;npm-all&quot; [id=npm-all].</h1>
+20 verbose bad json     <p>Path /makegirlsmoe_web not found in group repository &quot;npm-all&quot; [id=npm-all].</p>
+20 verbose bad json   </body>
+20 verbose bad json </html>
+21 error registry error parsing json
+22 verbose headers { date: 'Fri, 17 Nov 2017 15:18:32 GMT',
+22 verbose headers   server: 'Nexus/2.14.1-01',
+22 verbose headers   'x-frame-options': 'SAMEORIGIN',
+22 verbose headers   'x-content-type-options': 'nosniff',
+22 verbose headers   'accept-ranges': 'bytes',
+22 verbose headers   'content-type': 'text/html',
+22 verbose headers   'transfer-encoding': 'chunked' }
+23 silly get cb [ 404,
+23 silly get   { date: 'Fri, 17 Nov 2017 15:18:32 GMT',
+23 silly get     server: 'Nexus/2.14.1-01',
+23 silly get     'x-frame-options': 'SAMEORIGIN',
+23 silly get     'x-content-type-options': 'nosniff',
+23 silly get     'accept-ranges': 'bytes',
+23 silly get     'content-type': 'text/html',
+23 silly get     'transfer-encoding': 'chunked' } ]
+24 silly fetchPackageMetaData SyntaxError: Unexpected token < in JSON at position 0
+24 silly fetchPackageMetaData <html>
+24 silly fetchPackageMetaData   <head>
+24 silly fetchPackageMetaData     <title>404 - Path /makegirlsmoe_web not found in group repository &quot;npm-all&quot; [id=npm-all].</title>
+24 silly fetchPackageMetaData     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData     <link rel="icon" type="image/png" href="http://10.32.52.100:8888/nexus/favicon.png">
+24 silly fetchPackageMetaData     <!--[if IE]>
+24 silly fetchPackageMetaData     <link rel="SHORTCUT ICON" href="http://10.32.52.100:8888/nexus/favicon.ico"/>
+24 silly fetchPackageMetaData     <![endif]-->
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData     <link rel="stylesheet" href="http://10.32.52.100:8888/nexus/static/css/Sonatype-content.css?2.14.1-01" type="text/css" media="screen" title="no title" charset="utf-8">
+24 silly fetchPackageMetaData   </head>
+24 silly fetchPackageMetaData   <body>
+24 silly fetchPackageMetaData     <h1>404 - Path /makegirlsmoe_web not found in group repository &quot;npm-all&quot; [id=npm-all].</h1>
+24 silly fetchPackageMetaData     <p>Path /makegirlsmoe_web not found in group repository &quot;npm-all&quot; [id=npm-all].</p>
+24 silly fetchPackageMetaData   </body>
+24 silly fetchPackageMetaData </html>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData     at Object.parse (native)
+24 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:237:23)
+24 silly fetchPackageMetaData     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+24 silly fetchPackageMetaData     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:187:22)
+24 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+24 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+24 silly fetchPackageMetaData     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+24 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+24 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+24 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:969:12)
+24 silly fetchPackageMetaData  error for makegirlsmoe_web SyntaxError: Unexpected token < in JSON at position 0
+24 silly fetchPackageMetaData <html>
+24 silly fetchPackageMetaData   <head>
+24 silly fetchPackageMetaData     <title>404 - Path /makegirlsmoe_web not found in group repository &quot;npm-all&quot; [id=npm-all].</title>
+24 silly fetchPackageMetaData     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData     <link rel="icon" type="image/png" href="http://10.32.52.100:8888/nexus/favicon.png">
+24 silly fetchPackageMetaData     <!--[if IE]>
+24 silly fetchPackageMetaData     <link rel="SHORTCUT ICON" href="http://10.32.52.100:8888/nexus/favicon.ico"/>
+24 silly fetchPackageMetaData     <![endif]-->
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData     <link rel="stylesheet" href="http://10.32.52.100:8888/nexus/static/css/Sonatype-content.css?2.14.1-01" type="text/css" media="screen" title="no title" charset="utf-8">
+24 silly fetchPackageMetaData   </head>
+24 silly fetchPackageMetaData   <body>
+24 silly fetchPackageMetaData     <h1>404 - Path /makegirlsmoe_web not found in group repository &quot;npm-all&quot; [id=npm-all].</h1>
+24 silly fetchPackageMetaData     <p>Path /makegirlsmoe_web not found in group repository &quot;npm-all&quot; [id=npm-all].</p>
+24 silly fetchPackageMetaData   </body>
+24 silly fetchPackageMetaData </html>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData     at Object.parse (native)
+24 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:237:23)
+24 silly fetchPackageMetaData     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+24 silly fetchPackageMetaData     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:187:22)
+24 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+24 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+24 silly fetchPackageMetaData     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+24 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+24 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+24 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:969:12)
+25 silly rollbackFailedOptional Starting
+26 silly rollbackFailedOptional Finishing
+27 silly runTopLevelLifecycles Finishing
+28 silly install printInstalled
+29 verbose stack SyntaxError: Unexpected token < in JSON at position 0
+29 verbose stack <html>
+29 verbose stack   <head>
+29 verbose stack     <title>404 - Path /makegirlsmoe_web not found in group repository &quot;npm-all&quot; [id=npm-all].</title>
+29 verbose stack     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+29 verbose stack
+29 verbose stack     <link rel="icon" type="image/png" href="http://10.32.52.100:8888/nexus/favicon.png">
+29 verbose stack     <!--[if IE]>
+29 verbose stack     <link rel="SHORTCUT ICON" href="http://10.32.52.100:8888/nexus/favicon.ico"/>
+29 verbose stack     <![endif]-->
+29 verbose stack
+29 verbose stack     <link rel="stylesheet" href="http://10.32.52.100:8888/nexus/static/css/Sonatype-content.css?2.14.1-01" type="text/css" media="screen" title="no title" charset="utf-8">
+29 verbose stack   </head>
+29 verbose stack   <body>
+29 verbose stack     <h1>404 - Path /makegirlsmoe_web not found in group repository &quot;npm-all&quot; [id=npm-all].</h1>
+29 verbose stack     <p>Path /makegirlsmoe_web not found in group repository &quot;npm-all&quot; [id=npm-all].</p>
+29 verbose stack   </body>
+29 verbose stack </html>
+29 verbose stack
+29 verbose stack     at Object.parse (native)
+29 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:237:23)
+29 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+29 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:187:22)
+29 verbose stack     at emitTwo (events.js:106:13)
+29 verbose stack     at Request.emit (events.js:191:7)
+29 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+29 verbose stack     at emitOne (events.js:96:13)
+29 verbose stack     at Request.emit (events.js:188:7)
+29 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:969:12)
+30 verbose cwd /Users/elton.zhong/src/U201317538.github.io
+31 error Darwin 16.7.0
+32 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "makegirlsmoe_web" "--save"
+33 error node v6.9.2
+34 error npm  v3.10.9
+35 error Unexpected token < in JSON at position 0
+35 error <html>
+35 error   <head>
+35 error     <title>404 - Path /makegirlsmoe_web not found in group repository &quot;npm-all&quot; [id=npm-all].</title>
+35 error     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+35 error
+35 error     <link rel="icon" type="image/png" href="http://10.32.52.100:8888/nexus/favicon.png">
+35 error     <!--[if IE]>
+35 error     <link rel="SHORTCUT ICON" href="http://10.32.52.100:8888/nexus/favicon.ico"/>
+35 error     <![endif]-->
+35 error
+35 error     <link rel="stylesheet" href="http://10.32.52.100:8888/nexus/static/css/Sonatype-content.css?2.14.1-01" type="text/css" media="screen" title="no title" charset="utf-8">
+35 error   </head>
+35 error   <body>
+35 error     <h1>404 - Path /makegirlsmoe_web not found in group repository &quot;npm-all&quot; [id=npm-all].</h1>
+35 error     <p>Path /makegirlsmoe_web not found in group repository &quot;npm-all&quot; [id=npm-all].</p>
+35 error   </body>
+35 error </html>
+36 error If you need help, you may report this error at:
+36 error     <https://github.com/npm/npm/issues>
+37 verbose exit [ 1, true ]
