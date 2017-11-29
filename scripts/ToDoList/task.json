@@ -408,10 +408,21 @@
     "todo": ["买衣服", "看博客"]
 },{
     "date": "2017/11/27",
-    "todo": ["302", "postman", "thinking in java", "看一个爬虫项目"]
+    "todo": ["302", "postman", "thinking in java", "看一个爬虫项目"],
+    "done": ["1", "1", "1", "0"]
 },{
     "date": "2017/11/28",
-    "todo": ["thinking in java得尽快读完了", "龙书也得开始看了"]
+    "todo": ["thinking in java得尽快读完了", "龙书也得开始看了"],
+    "done": ["1", "觉得自己没必要先钻研可能暂时用处没有那么大的东西"]
+},{
+    "date": "2017/11/29",
+    "todo": ["you don't know js", "看一些open source program"],
+    "done": ["big day!`"]
+},{
+    "date": "2017/11/30",
+    "todo": ["如果无事的话继续逛github"],
+    "done": [""]
 }
+
 
 ]
