@@ -1,4 +1,4 @@
-import task from './task.json'
+import task from '../../task.json'
 import {BootstrapTable, TableHeaderColumn} from 'react-bootstrap-table'
 import React from 'react'
 import 'react-bootstrap-table/dist/react-bootstrap-table.min.css';

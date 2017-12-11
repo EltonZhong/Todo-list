@@ -28,6 +28,7 @@
     "webpack-dev-server": "^1.16.3"
   },
   "dependencies": {
+    "extract-text-webpack-plugin": "^3.0.2",
     "install": "^0.8.7",
     "jquery": "^3.2.1",
     "npm": "^4.4.1",
@@ -41,6 +42,7 @@
     "react-particles-js": "^1.5.0",
     "react-search": "^2.0.5",
     "react-select": "^1.0.0-rc.3",
+    "react-sidebar": "^2.3.2",
     "webpack": "^1.14.0"
   }
 }

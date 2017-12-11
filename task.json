@@ -1,0 +1,442 @@
+[
+{
+    "date": "2017/8/11",
+	"todo":["拿游泳卡", "实验 先写测试", "找到Service web无法编译的原因","找到优雅实现获取光标位置方法","找到es6实现await的方法","将剩下的测试补完"],
+	"done":["×","√","×","√","×","√"],
+	"highlight":["在完成4的时候顺便完成了William提的improvement"]
+},
+{
+    "date": "2017/8/12",
+    "todo":["买一件T-shirt和一条黑色裤子", "去超市买点水果与酸奶存货", "收拾家准备铺地毯","看完猜火车与猜火车2","11点睡觉"],
+    "done":["×裤子没买","√","√","√","√"],
+    "highlight":["收拾的时候顺便做个了大扫除，垫了层床垫","11点睡觉成功完成"]
+},
+{
+    "date": "2017/8/13",
+    "todo":["铺地毯", "看中国有嘻哈", "设计JSON格式并撸一套UI用来舍弃文档形式的TodoList","游泳","11点睡觉"],
+    "done":["√","√","√","√","×"],
+    "highlight":["自己对UI很满意，界面也十分友好"]
+},
+{
+    "date": "2017/8/14",
+    "todo":["解决家里网络坏了的问题","11点睡觉","读一些github上的py源码"],
+    "done": ["√","√","√"]
+},
+{
+    "date": "2017/8/15",
+    "todo": ["游泳", "准迁证","修网络","花1个小时敲python","java8 default"],
+    "done": ["√","√","√","√","√"]
+},
+{
+    "date": "2017/8/16",
+    "todo": ["理解spring具体实现方式", "完成HB-649"],
+    "done": ["√","√"],
+    "highlight": ["完成了HB-649, 花了大半个晚上埋了十分多的坑"]
+},
+{
+    "date": "2017/8/17",
+    "todo": ["游泳","修养一下由于昨天晚上写代码过多过于兴奋三点没睡的大脑"],
+    "done": ["3h", "√"],
+    "highlight": ["今天主要是运动，10点左右回到家里感觉自己瘦了10斤"]
+},
+{
+    "date": "2017/8/18",
+    "todo": ["build 386的镜像，跑起机器上的docker镜像", "11点睡觉", "如果时间还有的话，撸一会python"],
+    "done": ["×", "√", "√"],
+    "highlight": [""]
+},
+{
+    "date": "2017/8/19",
+    "todo": ["游泳", "休息"],
+    "done": ["√", "√"]
+},
+{
+    "date": "2017/8/20",
+    "todo": ["将打包的js文件变小"],
+    "done": ["√"],
+    "highlight": ["将js文件从6.8m变成900k, 顺便涨了一波webpack的姿势"]
+},
+{
+    "date": "2017/8/21",
+    "todo": ["算法题", "剧本"],
+    "done":[
+	"√", "研究了许多场景，写了几幕"
+	]
+},
+{
+    "date": "2017/8/22",
+    "todo": [
+	"vim", "看比赛"
+	],
+    "done": ["√", "√"]
+},
+{
+    "date": "2017/8/23",
+    "todo": ["和John协商视频", "收拾房间"],
+    "done":  ["解决", "√"]
+},
+{
+    "date": "2017/8/24",
+    "todo":  ["感冒休养一下"],
+    "done":  ["从7点睡到早上5点"]
+},
+{
+    "date": "2017/8/25",
+    "todo": ["读glip源码", "读一个django开源项目源码"]
+},
+{
+    "date": "2017/8/26",
+    "todo": ["收拾东西"],
+    "done": ["落了雨伞"]
+},
+{
+    "date": "2017/8/27",
+    "todo": ["在火车上做完自己的ticket"],
+    "done": ["完成部分"],
+    "highlight": ["合理利用时间"]
+},
+{
+    "date": "2017/8/28",
+    "todo": ["不作计划"]
+},
+{
+    "date": "2017/8/29",
+    "todo": ["陪老妈逛街"],
+    "done": ["√"]
+},
+{
+    "date": "2017/8/30",
+    "todo": ["学做菜", "剪头发", "去趟医院"],
+    "done": ["√","√","√"] 
+},
+{
+    "date": "2017/8/31",
+    "todo": ["fork 项目测试"],
+    "done": ["找出逻辑上的错误"]
+},
+{
+    "date": "2017/9/1",
+    "todo": ["收尾case id", "思考怎么修改tag格式才能使影响最小"],
+    "done": ["编译问题", "√"]
+},
+{
+    "date": "2017/9/2",
+    "todo": ["收拾东西", "找同学"],
+    "done": ["√", "√"]
+},{
+    "date": "2017/9/3--2017/9/6",
+    "todo": ["不作计划"]
+},{
+    "date": "2017/9/7",
+    "todo": ["Django 静态文件", "中秋视频", "找react-bootstrap-table的api"],
+    "done": ["√", "未完成", "done"]
+},{
+    "date": "2017/9/8",
+    "todo": ["中秋视频", "修掉plan filter 的bug"],
+    "done": ["in progress", "done"]
+},{
+    "date": "2017/9/9",
+    "todo": ["中秋视频"],
+    "done": ["片子拍好，等待剪辑收尾"]
+},{
+    "date": "2017/9/10",
+    "todo": ["glip"]
+},{
+    "date": "2017/9/11",
+    "todo": ["了解parser"],
+    "done": ["看了几篇博客，有大概的思路"]
+},{
+    "date": "2017/9/12",
+    "todo": ["游泳", "购买一个沙发", "至少1个小时用于学习"],
+    "done": ["done", "done", "done"]
+},{
+    "date": "2017/9/13",
+    "todo": ["一定要去跑步1个小时 !important"],
+    "done": ["改bug没跑"]
+},{
+    "date": "2017/9/14",
+    "todo": ["游泳"],
+    "done": ["√"]
+},{
+    "date": "2017/9/15",
+    "todo": ["监控项目运行状态"],
+    "done": ["碰上了编译失败的问题与许多小问题"],
+    "highlight": ["通过review update的代码发现了逻辑上的问题，在问题发生前hotfix"]
+},{
+    "date": "2017/9/16",
+    "todo": ["项目监控,solve the problems occured yesterday"],
+    "done": ["发现是prjs.json的问题，修改后重导数据库后解决。编译失败莫名其妙成功了，可能是因为昨晚网速问题"],
+    "highlight": ["发现两个逻辑处理不一致的问题,等待周一check"]
+},{
+    "date": "2017/9/17",
+    "todo": ["将材料寄回家办理户口迁出证明"],
+    "done": ["√"]
+},{
+    "date": "2017/9/18",
+    "todo": ["收拾家里, 新到的家居快递", "写background AC"],
+    "done": ["√", "√"]
+},{
+    "date": "2017/9/19",
+    "todo": ["写一些python 类代码"],
+    "done": ["√"]
+},{
+    "date": "2017/9/20",
+    "todo": ["买国庆回家车票", "买花草"],
+    "done": ["√","√"]
+},{
+    "date": "2017/9/21",
+    "todo": ["游泳"],
+    "done": ["√"],
+    "highlight": ["解失眠"]
+},{
+    "date": "2017/9/22",
+    "todo": ["design 两次请求问题", "看webpack文档", "11点半点睡觉"],
+    "done": ["√", "√", "x"]
+},{
+    "date": "2017/9/23",
+    "todo": ["跑步", "撸python，继续自己的django项目"],
+    "done": ["√", "没怎么弄，写了feature reset to后台代码"],
+    "highlight": ["在swagger 上跑通了自己的api，逻辑很周到"]
+},{
+    "date": "2017/9/24",
+    "todo": ["学习css3", "看完Thinging in java pdf 版本第一章对象", "洗鞋子", "整理秋天的衣服"],
+    "done": ["done", "done", "done", "x"]
+},{
+    "date": "2017/9/25",
+    "todo": ["Thinking in java 第二章", "擦鞋"],
+    "done": ["看了2,3章,比较基础", "√"]
+},{
+    "date": "2017/9/26",
+    "todo": ["博饼","收拾房间"],
+    "done": ["√","回来较晚，改明日"]
+},{
+    "date": "2017/9/27",
+    "todo": ["收拾房间大扫除", "继续读Thinking in java", "如果有头绪,找set up script的原因"],
+    "done": ["done", "done", "done"]
+},{
+    "date": "2017/9/28",
+    "todo": ["Thinking in java", "logger"],
+    "done": ["1", "1"]
+},{
+    "date": "2017/9/29",
+    "todo": ["pack clothes", "prepare the presents"],
+    "done": ["1", "1"]
+},{
+    "date": "2017/9/30",
+    "todo": ["准备回家", "water the flower"],
+    "done": ["1", "1"]
+},{
+    "date": "2017/10/1-2017/10/8",
+    "todo": [""]
+},{
+    "date": "2017/10/9",
+    "todo": ["看一下身上的tickets，xuan择完成", "log"],
+    "done": ["由于vpn连不上，瞄了一下感觉完成的七七八八先不管","0"]
+},{
+    "date": "2017/10/10",
+    "todo": ["log", "修完所有ticket"]
+},{
+    "date": "2017/10/11",
+    "todo": ["户口", "调log"],
+    "done": ["x", "x"]
+},{
+    "date": "2017/10/12",
+    "todo": ["log"],
+    "done": ["debug找到了para写不进去的原因，差不多弄完了"],
+    "highlight": ["将反编译出来难看的代码debug通", "在等待跑的结果同时完成别的任务，充分利用时间"]
+},{
+    "date": "2017/10/13",
+    "todo": ["身份证", "做完手中活", "休息一晚上，计划下个阶段的学习计划"],
+    "done": ["1", "1", "1"]
+},{
+    "date": "2017/10/14",
+    "todo": ["juhui"]
+},{
+    "date": "2017/10/15",
+    "todo": ["调bug"],
+    "done": ["1"]
+},{
+    "date": "2017/10/16",
+    "todo": ["调template"],
+    "done": ["1"],
+    "highlight": ["对jenkins配置很熟悉了"]
+},{
+    "date": "2017/10/17",
+    "todo": ["fix bugs", "template"],
+    "done": ["done", "有一些奇怪的问题，最后发现与配置无关，是case不支持simulator的原因, 浪费时间"]
+},{
+    "date": "2017/10/18",
+    "todo": ["拆分configure"]
+},{
+    "date": "2017/10/19",
+    "todo": ["learn"],
+    "done": [""]
+},{
+    "date": "2017/10/20",
+    "todo": ["npm package"],
+    "done": ["1"],
+    "highlight": ["发现并解决了一个特别难以追踪的bug，发现是npm依赖的依赖react bootstrap table版本不一致带来的问题，决定安排时间深入了解npm依赖管理问题"]
+},{
+    "date": "2017/10/21",
+    "todo": ["写个简易parser"],
+    "done": ["阅读了相关资料,定义了简单的语法"],
+    "highlight": ["在github找到了几个很棒的播放器，粗略阅读了源码，可以以后用到"]
+},{
+   "date": "2017/10/22",
+   "todo": ["tokenlizer"],
+   "done": ["1"]
+},{
+   "date": "2017/10/23",
+   "todo": ["语法分析器"],
+   "done": []
+},{
+   "date": "2017/10/24",
+   "todo": ["parser"],
+   "done": ["exercise中缀解析 "]
+},{
+   "date": "2017/10/25",
+   "todo": ["看龙书"],
+   "done": ["1"]
+},{
+    "date": "2017/10/26",
+    "todo": ["细读龙书"],
+    "done": ["重读昨晚随便看的部分，细细读懂"],
+    "highlight": ["理解了解析中缀的正确翻译模式，语法树"]
+},{
+    "date": "2017/10/27-2017/10/29",
+    "todo": ["trip"]
+},{
+    "date": "2017/10/30",
+    "todo": ["fucking etrade", "read one more chapter of dragon book"]
+},{
+    "date": "2017/10/31",
+    "todo": ["django backend of node_configure", "read <venus in flur>"],
+    "done": ["resources restframework api already availabe", "finally done"]
+
+},{
+    "date": "2017/11/01",
+    "todo": ["swagger for backend", "try create-react-app", "read my dragon book"],
+    "done": ["1", "1", "scanner"]
+},{
+    "date": "2017/11/02",
+    "todo": ["thinking in java", "前端swagger连接后端 "],
+    "done": ["1", "0"]
+},{
+    "date": "2017/11/03",
+    "todo": ["龙书", "debug backend"],
+    "done": ["1", "0"]
+},{
+    "date": "2017/11/04-2017/11/05",
+    "todo": ["交流会", "接待同学"],
+    "done": ["1", "1"]
+},{
+    "date": "2017/11/06",
+    "todo": ["thinking in java", "review code"],
+    "done": [1, 1]
+},{
+    "date": "2017/11/07",
+    "todo": ["ID card", "hadoop搭建", "thinking in java"],
+    "done": [0, 1],
+    "highlight": ["deep 了解了函数式编程，响应式编程"]
+},{
+    "date": "2017/11/08",
+    "todo": ["休息下浏览github", "早睡", "WEBGL!!!!!"],
+    "done": []
+},{
+    "date": "2017/11/09",
+    "todo": ["github"]
+},{
+    "date": "2017/11/10-2017/11/11",
+    "todo": ["感冒休息", "配眼镜"]
+},{
+    "date": "2017/11/12",
+    "todo": ["解决node configure坑", "调整生物钟", "用新到的吸尘器彻底打扫房间", "presentation"],
+    "done": ["tons of bugs drive me mad"]
+},{
+    "date": "2017/11/13",
+    "todo": ["fucking etrade", "就业失业证"]
+},{
+    "date": "2017/11/14",
+    "todo": ["nothing to do"]
+},{
+    "date": "2017/11/15",
+    "todo": ""
+},{
+    "date": "2017/11/16",
+    "todo": ["learn python", "webpack HMR"],
+    "done": [1, 1],
+    "highlight": ["find the easist way to get the path in a mose", "HMR"]
+},{
+    "date": "2017/11/17",
+    "todo": ["调integration template"],
+    "done": ["1"],
+    "highlight": ["发现了submodule的天坑", "java integer -128-127 对象不变，过了对象就变了"]
+},{
+    "date": "2017/11/18",
+    "todo": ["蓝底二寸照片", "钻研龙书至少二小时", "找到一个合适的note book,开始使用统一的notebook", "clean my room"],
+    "done": ["1", "看不进去，转看thinking in java 两小时", "0", "1"]
+},{
+    "date": "2017/11/19",
+    "todo": ["准备以精神饱满的姿态迎接2017/11/20", "thinking in java"],
+    "done": ["早睡", "1"],
+    "highlight": ["看了一些有意思的博客, 了解了js的一些细节"]
+},{
+    "date": "2017/11/20",
+    "todo": ["thinking in java 1小时", "733 构造的命令差别", "洗冬天衣服", "睡前浏览些知识"],
+    "done": ["1"]
+},{
+    "date": "2017/11/21",
+    "todo": ["如果天气还行，去买冬装"],
+    "done": ["0"]
+},{
+    "date": "2017/11/22",
+    "todo": ["bugs"],
+    "done": ["python ut"]
+},{
+    "date": "2017/11/23",
+    "todo": ["贤者模式, github"],
+    "done": ["1"]
+},{
+    "date": "2017/11/24",
+    "todo": ["没计划，休息"]
+},{
+    "date": "2017/11/25",
+    "todo": ["买衣服", "打扫卫生", "洗旧衣服"],
+    "done": ["感冒"]
+},{
+    "date": "2017/11/26",
+    "todo": ["买衣服", "看博客"]
+},{
+    "date": "2017/11/27",
+    "todo": ["302", "postman", "thinking in java", "看一个爬虫项目"],
+    "done": ["1", "1", "1", "0"]
+},{
+    "date": "2017/11/28",
+    "todo": ["thinking in java得尽快读完了", "龙书也得开始看了"],
+    "done": ["1", "觉得自己没必要先钻研可能暂时用处没有那么大的东西"]
+},{
+    "date": "2017/11/29",
+    "todo": ["you don't know js", "看一些open source program"],
+    "done": ["big day!`"]
+},{
+    "date": "2017/11/30",
+    "todo": ["如果无事的话继续逛github"],
+    "done": [""]
+},{
+    "date": "2017/12/1-2017/12/6",
+    "todo": ["too many things to be done, will start studying plan from 12/6"],
+    "done": ["you don't know js and strict mode of js"]
+},{
+    "date": "2017/12/7",
+    "todo": ["you don't know js"]
+},{
+    "date": "2017/12/8-2017/12/11",
+    "todo": ["沉迷吃鸡"]
+},{
+    "date": "2017/12/12",
+    "todo": ["买取暖器", "you don't know js", "django 文档", "django 开源项目"]
+},{
+    "date": "2017/12/13",
+    "todo": [""]
+}
+]
