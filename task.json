@@ -437,6 +437,18 @@
     "todo": ["买取暖器", "you don't know js", "django 文档", "django 开源项目"]
 },{
     "date": "2017/12/13",
-    "todo": [""]
+    "todo": ["you don't know js", "8-10点read and learn"],
+    "done": [],
+    "highlight": ["ass does a very good job of pretending to fix the problems with the class/inheritance design pattern in JS. But it actually does the opposite: it hides many of the problems, and introduces other subtle but dangerous ones.\n\nclass contributes to the ongoing confusion of \"class\" in JavaScript which has plagued the language for nearly two decades. In some respects, it asks more questions than it answers, and it feels in totality like a very unnatural fit on top of the elegant simplicity of the [[Prototype]] mechanism."]
+},{
+    "date": "2017/12/14-2017/12/15",
+    "todo": ["busy"]
+},{
+    "date": "2017/12/16",
+    "done": ["啥都没干"],
+},{
+    "date": "2017/12/17",
+    "todo": ["learn shell", "scroll"],
+    "done": ["beginning", "优化了hb"]
 }
 ]
