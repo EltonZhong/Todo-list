@@ -450,5 +450,31 @@
     "date": "2017/12/17",
     "todo": ["learn shell", "scroll"],
     "done": ["beginning", "优化了hb"]
+},{
+    "date": "2017/12/21",
+    "todo": ["birthday"],
+    "done": ["和近古去了鹭江宾馆, 中山街"]
+},{
+    "date": "2017/12/22",
+    "todo": ["学习bootstrap 里面的常用css"]
+},{
+    "date": "2017/12/23",
+    "todo": ["jquery bootstrap 基础一波"]
+},{
+    "date": "2017/12/24",
+    "todo": ["css 学习"]
+},{
+    "date": "2017/12/25",
+    "todo": ["jsonp"]
+},{
+    "date": "2017/12/26",
+    "todo": ["you dont know js"]
+},{
+    "date": "2017/12/27",
+    "todo": ["you dont know js next chapter"]
+},{
+    "date": "2017/12/28",
+    "todo": "read django document"
 }
+
 ]
