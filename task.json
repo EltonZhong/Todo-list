@@ -474,10 +474,16 @@
     "todo": ["you dont know js next chapter"]
 },{
     "date": "2017/12/28",
-    "todo": "read django document"
+    "todo": ["read django document"]
 },{
     "date": "2017/12/29-2018/1/1",
     "todo": ["hpnewy"]
+},{
+    "date": "2018/1/2",
+    "todo": ["fix bug"]
+},{
+    "date": "2018/1/3",
+    "todo": ["design pattern", "clean code"]
 }
 
 ]
