@@ -484,6 +484,15 @@
 },{
     "date": "2018/1/3",
     "todo": ["design pattern", "clean code"]
+},{
+    "date": "2018/1/4",
+    "todo": ["work, django reset framework document"]
+},{
+    "date": "2018/1/5",
+    "todo": ["have a rest"]
+},{
+    "date": "2018/1/6",
+    "todo": ["调整生物钟", "结束you don't know js 学习"]
 }
 
 ]
