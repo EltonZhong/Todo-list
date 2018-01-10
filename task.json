@@ -493,6 +493,23 @@
 },{
     "date": "2018/1/6",
     "todo": ["调整生物钟", "结束you don't know js 学习"]
+},{
+   "date": "2018/1/7",
+   "todo": ["you don't know js"]
+}, {
+   "date": "2018/1/8",
+   "todo": ["django 文档"]
+},{
+   "date": "2018/1/9",
+   "todo": ["debug for testplan reactbootstrap table"]
+}, {
+   "date": "2018/1/10",
+   "todo": ["github ", "code format for js"]
+}, {
+    "date": "2018/1/11",
+    "todo": ["github", "css learning, mdn 从第一章开始"]
+},{
+    "date": "2018/1/12"
 }
 
 ]
