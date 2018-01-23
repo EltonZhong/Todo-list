@@ -537,5 +537,15 @@
 }, {
     "date": "2018/1/21",
     "todo": ["shell 编程·"]
+}, {
+    "date": "2018/1/22",
+    "done": ["debug 了一晚上"],
+    "highlight": ["wsgi 协议", "python 线程进程"]
+}, {
+    "date": "2018/1/23",
+    "todo": ["selenuim grid"]
+}, {
+    "date": "2018/1/24",
+    "todo": ["i_i 为什么还不过年"]
 }
 ]
