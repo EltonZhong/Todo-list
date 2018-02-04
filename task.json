@@ -561,5 +561,18 @@
 }, {
     "date": "2018/1/31",
     "todo": ["今天就学习一下jest配置吧"]
+}, {
+    "date": "2018/2/1",
+    "todo": ["not desiced yet"]
+}, {
+    "date": "2018/2/2",
+    "todo": ["nianhui"]
+}, {
+    "date": "2018/2/3-2018/2/4",
+    "todo": ["接待小蜜蜂"]
+}, {
+    "date": "2018/2/5",
+    "todo": ["调试xia2 hub 出现不了devices的bug"]
 }
+
 ]
