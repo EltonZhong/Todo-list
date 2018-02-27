@@ -587,6 +587,10 @@
     "done": ["生病", "过年"]
 }, {
     "date": "2018/2/26", 
-    "todo": ["给自己订几个小目标，准备买书读"]
+    "todo": ["给自己订几个小目标，准备买书读"],
+    "done": ["effective java", "weixin xiaochengxu first blood"]
+}, {
+    "date": "2018/2/27",
+    "todo": ["effective java", "jenkins"]
 }
 ]
