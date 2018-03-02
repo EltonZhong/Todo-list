@@ -81,10 +81,10 @@ export default class TaskTable extends React.Component{
     render(){
         let style = {
             zIndex: 100,
-            top: '20%',
+            top: '10%',
             width: '90%',
             position: 'absolute',
-            paddingLeft: '5%',
+            marginLeft: '5%',
             height: '80%',
             overflow: 'auto'
         }
