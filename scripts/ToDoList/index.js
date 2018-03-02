@@ -82,10 +82,10 @@ export default class TaskTable extends React.Component{
         let style = {
             zIndex: 100,
             top: '20%',
-            width: '80%',
+            width: '90%',
             position: 'absolute',
-            paddingLeft: '10%',
-            height: '500px',
+            paddingLeft: '5%',
+            height: '80%',
             overflow: 'auto'
         }
         let date = new Date();
