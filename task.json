@@ -621,6 +621,12 @@
 }, {
     "date": "2018/3/18",
     "todo": ["shell  biancheng学习"]
-
+}, {
+    "date": "2018/3/19",
+    "todo": ["banwagong"],
+    "done": ["租了个搬瓦工服务器", "打了个shadowsocks"]
+}, {
+    "date": "2018/3/20",
+    "todo": ["时间过得好快啊", "做点有意义的事， 先把shell学好吧"]
 }
 ]
